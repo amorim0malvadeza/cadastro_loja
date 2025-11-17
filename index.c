@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
-// 🗃️ Estrutura de Dados do Produto
+// ??? Estrutura de Dados do Produto
 // Utiliza campos maiores para acomodar textos maiores, conforme especificado.
 #define MAX_NOME 100
 #define MAX_CATEGORIA 50
@@ -385,7 +385,7 @@ void exportar_csv() {
     FILE *arquivo = fopen("produtos_export.csv", "w");
 
     if (arquivo == NULL) {
-        printf("⚠️ Erro: Não foi possível criar o arquivo CSV!\n");
+        printf("?? Erro: Não foi possível criar o arquivo CSV!\n");
         return;
     }
     //Cabeçalho
